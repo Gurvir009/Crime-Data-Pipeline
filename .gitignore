@@ -1,0 +1,19 @@
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Prefect local files
+.prefect/
+
+# Log files
+*.log
